@@ -1,6 +1,6 @@
 # 가업승계 탐지 (OpenDART)
 
-실행 결과 정리: **[RESULTS.md](RESULTS.md)**
+실행 결과 정리: **[RESULTS.md](RESULTS.md)** · 발표 자료: [docs/가업승계_탐지모델.pptx](docs/가업승계_탐지모델.pptx)
 
 원천 데이터(OpenDART 수집 CSV)와 개인정보가 담긴 산출물(dataset.pkl, 엑셀)은 포함하지 않습니다. 실행하려면 OpenDART API로 직접 수집해 data/ 에 두세요.
 

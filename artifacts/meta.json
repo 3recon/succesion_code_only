@@ -1,0 +1,143 @@
+{
+  "3y": {
+    "rows": 1233,
+    "positives": 93,
+    "years": [
+      2015,
+      2021
+    ],
+    "best_by_cv_AP": "Ensemble",
+    "cv_mean": {
+      "AUC": 0.8311,
+      "AP": 0.3916,
+      "P_at_50": 0.508,
+      "P_at_100": 0.348
+    }
+  },
+  "1y": {
+    "rows": 2043,
+    "positives": 45,
+    "years": [
+      2015,
+      2023
+    ],
+    "best_by_cv_AP": "RandomForest",
+    "cv_mean": {
+      "AUC": 0.8135,
+      "AP": 0.1363,
+      "P_at_50": 0.172,
+      "P_at_100": 0.142
+    }
+  },
+  "6m": {
+    "rows": 2799,
+    "positives": 19,
+    "years": [
+      2015,
+      2024
+    ],
+    "best_by_cv_AP": "Hazard(1y→)",
+    "cv_mean": {
+      "AUC": 0.7771,
+      "AP": 0.0333,
+      "P_at_50": 0.04,
+      "P_at_100": 0.038
+    }
+  },
+  "features_v1": [
+    "owner_stake",
+    "owner_age",
+    "owner_age_missing",
+    "owner_is_exec",
+    "owner_is_ceo",
+    "owner_is_chair",
+    "owner_registered",
+    "child_stake",
+    "child_n",
+    "child_max_stake",
+    "spouse_stake",
+    "relative_stake",
+    "kin_surname_stake",
+    "kin_surname_max",
+    "heir_stake",
+    "heir_to_owner",
+    "family_stake",
+    "has_child_listed",
+    "foundation_stake",
+    "affil_corp_stake",
+    "n_holders",
+    "heir_exec_n",
+    "heir_is_ceo",
+    "heir_registered",
+    "heir_age",
+    "n_changes",
+    "n_gift",
+    "n_otc",
+    "n_pledge",
+    "n_restruct",
+    "gift_3y",
+    "owner_stake_chg1",
+    "heir_stake_chg1",
+    "family_stake_chg1",
+    "heir_exec_n_chg1",
+    "owner_stake_chg3",
+    "heir_stake_chg3"
+  ],
+  "features_v2": [
+    "owner_stake",
+    "owner_age",
+    "owner_age_missing",
+    "owner_is_exec",
+    "owner_is_ceo",
+    "owner_is_chair",
+    "owner_registered",
+    "child_stake",
+    "child_n",
+    "child_max_stake",
+    "spouse_stake",
+    "relative_stake",
+    "kin_surname_stake",
+    "kin_surname_max",
+    "heir_stake",
+    "heir_to_owner",
+    "family_stake",
+    "has_child_listed",
+    "foundation_stake",
+    "affil_corp_stake",
+    "n_holders",
+    "heir_exec_n",
+    "heir_is_ceo",
+    "heir_registered",
+    "heir_age",
+    "n_changes",
+    "n_gift",
+    "n_otc",
+    "n_pledge",
+    "n_restruct",
+    "gift_3y",
+    "owner_stake_chg1",
+    "heir_stake_chg1",
+    "family_stake_chg1",
+    "heir_exec_n_chg1",
+    "owner_stake_chg3",
+    "heir_stake_chg3",
+    "heir_n_people",
+    "gen_gap",
+    "spouse_to_owner",
+    "holdco_dominant",
+    "owner_age_sq",
+    "age70",
+    "age_x_heir",
+    "n_changes_2y",
+    "owner_stake_chg2",
+    "heir_stake_chg2"
+  ],
+  "folds": 5,
+  "repeats": 5,
+  "time_cut": {
+    "3y": 2020,
+    "1y": 2021,
+    "6m": 2022
+  },
+  "created": "2026-11-01T00:57:33"
+}
